@@ -39,7 +39,7 @@ int main() {
     int score = 0 ;
     printf("Please Enter your score : " ) ;
     scanf( "%d", &score ) ;
-    if (score >= 80 && score < 100)
+    if (score >= 80)
     {
         printf("A !") ;
     }
