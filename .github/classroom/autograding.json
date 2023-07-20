@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Test A",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "80",
+      "output": "A !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test B",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "74",
+      "output": "B !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test B plus",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "76",
+      "output": "B+ !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test C Plus",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "66",
+      "output": "C+ !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test C",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "61",
+      "output": "C",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test D Plus",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "59",
+      "output": "D+ !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test D",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "54",
+      "output": "D !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test F",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "49",
+      "output": "F !",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test not number",
+      "setup": "g++ -o a.out ./Lab/Lab05-If-Else-Switch-Case.cpp",
+      "run": "./a.out",
+      "input": "hello",
+      "output": "please enter number only.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
