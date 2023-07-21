@@ -34,10 +34,47 @@
 */
 
 #include <stdio.h>
-
+#include <ctype.h>
 int main() {
-
-    //--| YOUR CODE HERE
-
+    int score = 0 ;
+    printf("Please Enter your score : " ) ;
+    if (scanf( "%d", &score ) == true)
+    {
+      if (score >= 80)
+        {
+            printf("A !") ;
+        }
+        if (score >= 75 && score < 80)
+        {
+            printf("B+ !") ;
+        }
+        if (score >= 70 && score < 75)
+        {
+            printf("B !") ;
+        }
+        if (score >= 65 && score < 70)
+        {
+            printf("C+ !") ;
+        }
+        if (score >= 60 && score < 65)
+        {
+            printf("C !") ;
+        }
+        if (score >= 55 && score < 60)
+        {
+            printf("D+ !") ;
+        }
+        if (score >= 50 && score < 55)
+        {
+            printf("D !") ;
+        }
+        if (score >= 0 && score < 50)
+        {
+            printf("F !") ;
+        }  
+    }
+    else{
+        printf("please enter number only.") ;
+    }
     return 0 ;
 }//end main function
